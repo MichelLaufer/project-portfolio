@@ -1,1 +1,225 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
 
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  background: #fa382f 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  display: inline;
+  letter-spacing: 0;
+  opacity: 1;
+  text-align: center;
+}
+
+h4 {
+  color: red;
+  display: inline;
+  text-align: center;
+}
+
+p {
+  display: block;
+  font-size: 12px;
+  margin: 8px;
+  text-align: center;
+}
+
+/* HERO IMAGE SECTION ****************************/
+#hero-image {
+  background-image: url("unsplash_red.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-style: bold;
+  justify-content: center;
+  margin-bottom: 0px;
+  opacity: 1;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+.hero-text {
+  color: white;
+  padding-left: 10vw;
+}
+
+h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.top-below {
+  display: flex;
+  flex-direction: row;
+}
+
+#icon-white {
+  border: 2px solid white;
+  border-radius: 40%;
+  height: 18px;
+  width: 18px;
+  padding: 12px;
+}
+
+.circles-white {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: auto;
+  padding-right: 5vw;
+}
+
+img {
+  align-self: flex-end;
+  height: 170px;
+  margin-left: auto;
+  padding-right: 4vw;
+  width: 170px;
+}
+
+/* INTRODUCTION SECTION *******************/
+.intro-section {
+  background: rgb(255,250,205);
+  display: block;
+  height: 100%;
+  margin: 0;
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* MAIN SECTION ****************************/
+
+/* TECH */
+.tech-skills {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+/* SKILLS */
+.skills {
+  background: rgb(255,250,205);
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-right: 3vw;
+}
+
+.li a {
+  text-decoration: none;
+}
+
+/* FEATURED PROJECTS */
+.featured-projects {
+  background: rgb(255,250,205);
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.box {
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+
+.project-image {
+  height: 10rem;
+  width: 11rem;
+}
+
+.other-projects {
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+/* MY THOUGHTS ABOUT CODE*/
+.my-thoughts {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.thought-image {
+  height: 10rem;
+  width: 15rem;
+}
+
+#thoughts {
+  font-weight: bold;
+}
+
+/* FOR MORE */
+.for-more {
+  color: red;
+  text-align: center;
+}
+
+.circles-red {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.circle-red {
+  margin-left: 3vw;
+}
+
+#icon-red {
+  border: 2px solid red;
+  border-radius: 35%;
+  height: 24px;
+  padding: 20px;
+  width: 24px;
+}
+
+/* CONTACT *********************/
+.contact {
+  background:rgb(220,20,60);
+  color: white;
+  margin-top: 5vh;
+  padding-bottom: 7vh;
+  padding-top: 7vh;
+}
+
+#contact-text {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+
+/* MEDIA QUERIES *******************/
+@media(min-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
