@@ -205,7 +205,12 @@ ul {
   width: 15rem;
 }
 
-#thoughts {
+.thought-date {
+  color: red;
+  font-size: 14px;
+}
+
+.thoughts {
   font-weight: bold;
 }
 
