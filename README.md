@@ -1,5 +1,4 @@
 # project-portfolio
-My porfolio
 
 This project was made at the Technigo boot camp using HTML and CSS. 
 The purpose was to build a portfolio page with links to our projects
