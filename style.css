@@ -22,6 +22,8 @@ h3 {
 
 h4 {
   color: #dd2424;
+  font-family: 'Roboto';
+  font-weight: bold;
   text-align: center;
 }
 
@@ -64,7 +66,7 @@ a {
 
 .hero-title {
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-size: 16px;
   margin-bottom: 0;
   margin-top: 0;
@@ -113,11 +115,12 @@ a {
 }
 
 .intro-text {
+  font-size: 17px;
   margin: 0 auto; 
   padding-bottom: 1vh;
   padding-top: 1vh;
   text-align: left;
-  width: 45%;
+  width: 80%;
 }
 
 /* MAIN SECTION ****************************/
@@ -126,9 +129,7 @@ a {
 .skills-section {
   display: block;
   height: 100%;
-  /* margin-bottom: 5vh;
-  padding-bottom: 5vh;
-  padding-top: 5vh; */
+  padding-top: 4vh;
   text-align: center;
   width: 100%;
 }
@@ -139,11 +140,12 @@ a {
 }
 
 .skills-listed {
+  font-size: 17px;
   margin: 0 auto; 
   padding-bottom: 1vh;
   padding-top: 1vh;
   text-align: left;
-  width: 45%;
+  width: 80%;
 }
 
 .intro {
@@ -180,17 +182,13 @@ ul {
 .featured-projects {
   background: rgb(255,250,205);
   margin: 0 auto;
-  max-width: 1100px;
-  padding: 50px 10%;
+  padding: 50px 20%;
+  padding-bottom: 3vh;
 }
 
-/* .featured-projects {
-  background: rgb(255,250,205);
-  margin-bottom: 5vh;
-  padding-bottom: 5vh;
-  padding-top: 5vh;
-  text-align: center;
-} */
+.menu-container {
+  padding-top: 4vh;
+}
 
 .box {
   padding-bottom: 3vh;
@@ -198,18 +196,27 @@ ul {
 }
 
 .project-image {
-  height: 10rem;
-  width: 13rem;
+  height: 12rem;
+  width: 15rem;
+}
+
+.project-text {
+  font-family: 'Roboto';
+  padding-top: 1vh;
+  width: 15rem;
 }
 
 .project-name {
   color: #dd2424;
+  font-weight: bold;
 }
 
 .skill-tags-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  padding-bottom: 5vh;
+  padding-top: 2vh;
 }
 
 .skill-tag {
@@ -221,7 +228,6 @@ ul {
 }
 
 .other-projects {
-  padding-bottom: 5vh;
   padding-top: 5vh;
 }
 
@@ -232,18 +238,18 @@ ul {
 /* MY THOUGHTS ABOUT CODE*/
 .my-thoughts {
   margin: 0 auto;
-  max-width: 1100px;
   padding: 50px 10%;
-}  
-/* .my-thoughts {
-  margin-bottom: 5vh;
-  padding-bottom: 5vh;
+}
+
+.thoughts-container {
+  font-family: 'Roboto';
   padding-top: 5vh;
-  text-align: center;
-} */
+  padding-left: 10%;
+}
 
 .thought-image {
-  height: 10rem;
+  height: 12rem;
+  padding-bottom: 2vh;
   width: 15rem;
 }
 
@@ -254,6 +260,12 @@ ul {
 
 .thoughts {
   font-weight: bold;
+  padding-bottom: 6vh;
+}
+
+/* SKILLS */
+.skills-container {
+  font-family: 'Roboto';
 }
 
 /* FOR MORE */
@@ -319,12 +331,22 @@ p {
   width: 170px;
 }
 
+.intro-text, .skills-listed {
+  width: 45%;
+}
+
 .skills-container {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.featured-projects {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 50px 10%;
+}
+
 .featured-header {
-  margin-left: 40%;
+  margin-left: 36%;
 }
 
 .menu-container {
@@ -354,24 +376,27 @@ p {
   align-self: flex-start;
   margin-bottom: 2vh;
   margin-top: 2vh;
+  width: 100%;
 }
 
-/* .menu-container {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: repeat(2, 2fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  margin: 0 auto;
-} */
+.skill-tags-container {
+  padding-bottom: 0;
+  padding-top: 0;
+}
 
 .menu-container-other {
   margin-left: 10vw;
   margin-right: 10vw;
 }
 
+.my-thoughts {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 50px 10%;
+}
+
 .my-thoughts-header {
-  margin-left: 35%;
+  margin-left: 33%;
 }
 
 .thoughts-container {
@@ -382,6 +407,7 @@ p {
   margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 10px;
+  padding-left: 0;
 }
 
 .thought-image {
@@ -389,9 +415,17 @@ p {
   width: 100%;
 }
 
+.thoughts {
+  padding-bottom: 0;
+}
+
 .other-thoughts {
   margin-left: 10vw;
   margin-right: 10vw;
+}
+
+.thoughts-other {
+  padding-left: 0.5vw;
 }
 
 .box-other {
@@ -400,15 +434,6 @@ p {
   text-align: left;
   margin-bottom: 20px;
 }
-
-/* .thoughts-container {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  margin: 0 auto;
-} */
 
 .skill-tag {
   font-size: 12px;
@@ -423,24 +448,48 @@ ul {
 
 @media(min-width: 1024px) {
 h2 {
-  margin-left: 8vw;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.hero-text {
+  margin-left: 12vw;
 }
 
 .hero-title {
-  margin-left: 8vw;
+  font-size: 19px;
 }
 
 .circles-white {
-  margin-right: 22vw;
+  margin-right: 21vw;
 }
 
 .profile-image {
-  margin-right: 22vw;
+  height: 195px;
+  margin-right: 20vw;
+  width: 195px;
 }
 
 .intro-section {
-  padding-bottom: 6vh;
-  padding-top: 6vh;
+  padding-bottom: 7vh;
+  padding-top: 7vh;
+}
+
+.intro-text {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  width: 55%;
 }
 
 .tech-skills {
@@ -449,7 +498,14 @@ h2 {
 }
 
 .skills-listed {
-  margin-top: 4vh;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  margin-top: 1vh;
+  width: 55%;
+}
+
+.project-text {
+  font-size: 20px;
 }
 
 .skills {
@@ -457,8 +513,29 @@ h2 {
   padding-top: 6vh;
 }
 
+.skills-box {
+  font-size: 20px;
+}
+
+.thought-date {
+  font-size: 15px;
+}
+
+.thoughts {
+  font-size: 20px;
+}
+
 .for-more {
   padding-bottom: 4vh;
   padding-top: 4vh;
+}
+
+.contact {
+  padding-bottom: 9vh;
+}
+
+#contact-text {
+  font-size: 25px;
+  padding-bottom: 20px;
 }
 }
