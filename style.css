@@ -182,12 +182,17 @@ ul {
 .featured-projects {
   background: rgb(255,250,205);
   margin: 0 auto;
-  padding: 50px 20%;
+  padding: 50px 10%;
   padding-bottom: 3vh;
+}
+
+.featured-header {
+  margin-left: 10%;
 }
 
 .menu-container {
   padding-top: 4vh;
+  padding-left: 10%;
 }
 
 .box {
@@ -357,6 +362,7 @@ p {
   margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 10px;
+  padding-left: 0;
 }
 
 .box {
