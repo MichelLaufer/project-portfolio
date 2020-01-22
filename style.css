@@ -39,6 +39,11 @@ a {
   text-decoration: none;
 }
 
+.red-arrows {
+  color: #dd2424;
+  font-weight: bold;
+}
+
 
 /* HERO IMAGE SECTION ****************************/
 .hero-image {
@@ -93,6 +98,10 @@ a {
   padding-right: 5vw;
 }
 
+.circle-white {
+  margin-right: 1vw;
+}
+
 .profile-image {
   align-self: flex-end;
   height: 150px;
@@ -116,11 +125,34 @@ a {
 
 .intro-text {
   font-size: 17px;
+  line-height: 1.5em;
   margin: 0 auto; 
   padding-bottom: 1vh;
   padding-top: 1vh;
   text-align: left;
   width: 80%;
+}
+
+.red-line {
+  background-color: #ed1250;
+  display: inline-block;
+  height: 2px;
+  margin-bottom: 5px;
+  margin-right: 0.9rem;
+  position: relative;
+  width: 35px;
+}
+
+.red-line::after {
+  background-color: #ed1250;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  left: 34px;
+  position: absolute;
+  top: -3px;
+  width: 7px;
 }
 
 /* MAIN SECTION ****************************/
@@ -141,6 +173,7 @@ a {
 
 .skills-listed {
   font-size: 17px;
+  line-height: 1.5em;
   margin: 0 auto; 
   padding-bottom: 1vh;
   padding-top: 1vh;
@@ -170,6 +203,7 @@ a {
 }
 
 ul {
+  line-height: 1.5em;
   list-style-type: none;
   padding-right: 8vw;
 }
@@ -265,7 +299,18 @@ ul {
 
 .thoughts {
   font-weight: bold;
+  padding-bottom: 1vh;
+}
+
+.thoughts-text {
+  font-family: 'Roboto';
+  font-size: 14px;
   padding-bottom: 6vh;
+}
+
+.thoughts-more {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /* SKILLS */
@@ -454,7 +499,7 @@ ul {
 
 @media(min-width: 1024px) {
 h2 {
-  font-size: 36px;
+  font-size: 38px;
 }
 
 h3 {
@@ -469,27 +514,41 @@ p {
   font-size: 18px;
 }
 
+.hero-image {
+  height: 50vh;
+}
+
 .hero-text {
   margin-left: 12vw;
+  margin-top: 4vh;
 }
 
 .hero-title {
-  font-size: 19px;
+  font-size: 20px;
+}
+
+.highlight {
+  font-weight: 700;
 }
 
 .circles-white {
-  margin-right: 21vw;
+  margin-right: 18vw;
+  margin-top: 2vh;
+}
+
+.circle-white {
+  margin-right: 1vw;
 }
 
 .profile-image {
-  height: 195px;
-  margin-right: 20vw;
-  width: 195px;
+  height: 210px;
+  margin-right: 18vw;
+  width: 210px;
 }
 
 .intro-section {
-  padding-bottom: 7vh;
-  padding-top: 7vh;
+  padding-bottom: 8vh;
+  padding-top: 8vh;
 }
 
 .intro-text {
@@ -523,12 +582,24 @@ p {
   font-size: 20px;
 }
 
+.skill-title {
+  margin-bottom: 0;
+}
+
 .thought-date {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .thoughts {
+  font-size: 25px;
+}
+
+.thoughts-text, .thoughts-more {
   font-size: 20px;
+}
+
+.thoughts-text {
+  margin-top: 1vh;
 }
 
 .for-more {
@@ -537,7 +608,7 @@ p {
 }
 
 .contact {
-  padding-bottom: 9vh;
+  padding-bottom: 12vh;
 }
 
 #contact-text {
