@@ -149,7 +149,7 @@ a {
   content: "";
   display: inline-block;
   height: 8px;
-  left: 34px;
+  left: 36px;
   position: absolute;
   top: -3px;
   width: 7px;
@@ -294,22 +294,23 @@ ul {
 
 .thought-date {
   color: red;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .thoughts {
+  font-size: 18px;
   font-weight: bold;
   padding-bottom: 1vh;
 }
 
 .thoughts-text {
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 16px;
   padding-bottom: 6vh;
 }
 
 .thoughts-more {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -515,7 +516,7 @@ p {
 }
 
 .hero-image {
-  height: 50vh;
+  height: 52vh;
 }
 
 .hero-text {
@@ -525,6 +526,7 @@ p {
 
 .hero-title {
   font-size: 20px;
+  font-weight: normal;
 }
 
 .highlight {
@@ -541,14 +543,14 @@ p {
 }
 
 .profile-image {
-  height: 210px;
-  margin-right: 18vw;
-  width: 210px;
+  height: 230px;
+  margin-right: 17vw;
+  width: 230px;
 }
 
 .intro-section {
-  padding-bottom: 8vh;
-  padding-top: 8vh;
+  padding-bottom: 9vh;
+  padding-top: 9vh;
 }
 
 .intro-text {
@@ -558,15 +560,19 @@ p {
 }
 
 .tech-skills {
-  padding-bottom: 3vh;
-  padding-top: 3vh;
+  padding-bottom: 4vh;
+  padding-top: 4vh;
 }
 
 .skills-listed {
   font-family: 'Montserrat';
-  font-size: 22px;
+  font-size: 23px;
   margin-top: 1vh;
   width: 55%;
+}
+
+.red-skill {
+  color: #fa382f;
 }
 
 .project-text {
@@ -588,10 +594,12 @@ p {
 
 .thought-date {
   font-size: 20px;
+  padding-bottom: 1vh;
 }
 
 .thoughts {
   font-size: 25px;
+  padding-bottom: 0.5vh;
 }
 
 .thoughts-text, .thoughts-more {
@@ -603,8 +611,8 @@ p {
 }
 
 .for-more {
-  padding-bottom: 4vh;
-  padding-top: 4vh;
+  padding-bottom: 6vh;
+  padding-top: 6vh;
 }
 
 .contact {
