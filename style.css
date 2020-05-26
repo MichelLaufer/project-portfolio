@@ -47,7 +47,7 @@ a {
 
 /* HERO IMAGE SECTION ****************************/
 .hero-image {
-  background-image: url("unsplash_red.jpg");
+  background-image: url("unsplash_background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
